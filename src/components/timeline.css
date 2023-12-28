@@ -1,0 +1,15 @@
+.timeline-container {
+    position: relative;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 6px; /* Adjust the width of the line as needed */
+    background-color: #0d173b; /* Adjust the color of the line as needed */
+    margin-left: -1px; 
+    transform: translateX(-50%);
+  }
+  
