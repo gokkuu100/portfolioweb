@@ -5,17 +5,28 @@ import './App.css'
 import Homepage from './components/homepage'
 import Projects from './components/projects'
 import Contact from './components/contact'
+import Framer from './components/framer';
+import Particlesbg from './components/particlesbg';
+import img from './components/4159942_89781.jpeg'
+
 
 function App() {
 
   return (
-    <>
-    <Routes>
+    <div>
+    <Particlesbg />
+    <div className="relative z-10">
+      <Homepage />
+      <Projects />
+      <Contact />
+    </div>
+    {/* <Routes>
         <Route path="/" exact element={<Homepage />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-    </Routes>
-    </>
+        <Route path="/framer" element={<Framer />} />
+    </Routes> */}
+    </div>
   )
 }
 

@@ -2,26 +2,49 @@ import React from 'react';
 import Timeline from './timeline';
 
 function Projects() {
- // projects.jsx
-const events = [
+
+  const events = [
     {
-      date: '2023-01-01',
-      title: 'Event 1',
-      description: 'Description for event 1.',
-      imageSrc: 'WhatsApp Image 2023-12-08 at 13.33.48.jpeg',
+      title: 'SkillCode',
+      description: 'This is a software platform much like hackerrank, which assess technical skills of students. It automates the in-person techincal interview.',
+      imageSrc: 'skillcode.png',
+      tags: "#python || #restapi",
+      projectUrl: "https://google.com"
     },
     {
-      date: '2023-02-15',
-      title: 'Event 2',
-      description: 'Description for event 2.',
-      imageSrc: 'Another_Image.jpg',
+      title: 'Converse-Wall',
+      description: 'This is a web chat application that allows a list of users to communicate and send messages and images to each other.',
+      imageSrc: 'conversewall.png',
+      tags: "#socketio || #nodejs || #expressjs",
+      projectUrl: "#"
+    },
+    {                              
+      title: 'Kwetu-Listings',
+      description: 'Kwetu is a project that simplfies the house hunting complexities by listing a number of available houses for sale made available by the house agents. .',
+      imageSrc: 'kwetu.png',
+      tags: "#jwt || #tailwindcss ",
+      projectUrl: "https://emmanuelmeena91.github.io/estate-client/"
+    },
+    {
+      title: 'Event-Booking',
+      description: 'This is a python based command-line application that allows users to create and book different events.',
+      imageSrc: 'event.png',
+      tags: "#cmd || #python",
+      projectUrl: "https://github.com/gokkuu100/event-booking-system",
+    },
+    {
+      title: 'Bizi-App',
+      description: 'Bizi is a web application that helps keep track of store records.',
+      imageSrc: 'bizi.png',
+      tags: "#react || #firebase",
+      projectUrl: "https://64cbaed2c87107014dcee11b--majestic-zabaione-697268.netlify.app/",
     },
   ];
   
 
   return (
     <div>
-      <div className='w-[15rem] min-h-[18rem] border-4 border-black rounded flex flex-col'>
+      {/* <div className='w-[15rem] min-h-[18rem] border-4 border-black rounded flex flex-col'>
         <img
           src='WhatsApp Image 2023-12-08 at 13.33.48.jpeg'
           alt=''
@@ -32,8 +55,8 @@ const events = [
           <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus modi explicabo amet voluptatibus aperiam necessitatibus, quaerat, iusto voluptatem, 
           tenetur nam hic et vero ipsa itaque animi numquam incidunt. Magni.</p>
         </div>
-      </div>
-      <p className='w-full text-center font-bold text-4xl my-8'>Projects:</p>
+      </div> */}
+      <p className='w-full text-center font-bold text-4xl my-8'>Projects</p>
       <Timeline events={events} />
     </div>
   );

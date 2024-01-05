@@ -3,7 +3,7 @@ import React from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-function TimelineCard({ date, title, description, imageSrc }) {
+function TimelineCard({ title, description, imageSrc, tags, projectUrl }) {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -12,18 +12,19 @@ function TimelineCard({ date, title, description, imageSrc }) {
         display: 'flex',
         alignItems: 'center',
       }}
-      contentArrowStyle={{ borderRight: '7px solid #232631' }}
-      date={date}
     >
+    <a href={projectUrl}>
       <img
         src={imageSrc}
         alt=''
         className='w-[15rem] h-[12rem] rounded'
         style={{ marginRight: '1rem' }}
       />
+    </a>
       <div>
         <h3 className='vertical-timeline-element-title'>{title}</h3>
         <p>{description}</p>
+        <p>{tags}</p>
       </div>
     </VerticalTimelineElement>
   );
