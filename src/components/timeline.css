@@ -7,8 +7,8 @@
     left: 50%;
     top: 0;
     bottom: 0;
-    width: 0.3rem; /* Adjust the width of the line as needed */
-    background-color: #0d173b; /* Adjust the color of the line as needed */
+    width: 0.3rem; 
+    background-color: #0d173b; 
     margin-left: -2px; 
     transform: translateX(-50%);
   }
@@ -26,13 +26,13 @@
   .scroll-down-text {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #fff; /* Change the color as needed */
+    color: #fff; 
   }
   
   .scroll-down-symbol {
     width: 20px;
     height: 20px;
-    border: solid #fff; /* Change the color as needed */
+    border: solid #fff; 
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
   }

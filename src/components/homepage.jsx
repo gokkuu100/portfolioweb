@@ -15,13 +15,11 @@ function Homepage() {
       </div>
 
       <div className='flex'>
-        {/* Left side div with circles */}
         <div className='flex flex-col'>
           <div className='w-2 h-[30rem] rounded-full bg-[#EA501A]' />
           <div className='w-[3rem]' />
         </div>
 
-        {/* Right side div with intro text */}
         <div className='intro-text font-bold text-black text-left text-[80px] leading-[98px] min-h-[80vh]'>
           <h1 className='mt-[5rem]'>
             Hi, I'm <span className='text-[#EA501A]'>&nbsp; Prince Hope</span>

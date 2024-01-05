@@ -9,7 +9,7 @@ function Projects() {
       description: 'This is a software platform much like hackerrank, which assess technical skills of students. It automates the in-person techincal interview.',
       imageSrc: 'skillcode.png',
       tags: "#python || #restapi",
-      projectUrl: "https://google.com"
+      projectUrl: "https://github.com/Chisaina69/Skill-Code"
     },
     {
       title: 'Converse-Wall',
