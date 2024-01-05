@@ -16,7 +16,7 @@ function Projects() {
       description: 'This is a web chat application that allows a list of users to communicate and send messages and images to each other.',
       imageSrc: 'conversewall.png',
       tags: "#socketio || #nodejs || #expressjs",
-      projectUrl: "#"
+      projectUrl: "https://github.com/gokkuu100/Converse-Wall-Front"
     },
     {                              
       title: 'Kwetu-Listings',
