@@ -42,13 +42,13 @@ function Contact() {
         <div className='flex flex-col ml-8'>
         <p className='text-xl mb-4 font-bold'>Get me on:</p>
         <a href='https://www.linkedin.com/in/prince-hope-a38114239/' target='_blank' rel='noopener noreferrer'>
-          <img alt='LinkedIn' src='src/components/linkedin-svgrepo-com.svg' className='w-10 h-10 cursor-pointer hover:opacity-70' />
+          <img alt='LinkedIn' src='/linkedin-svgrepo-com.svg' className='w-10 h-10 cursor-pointer hover:opacity-70' />
         </a> 
         <a href='https://github.com/gokkuu100' target='_blank' rel='noopener noreferrer'>
-          <img alt='GitHub' src='src/components/github-svgrepo-com.svg' className='w-10 h-10 mt-4 cursor-pointer hover:opacity-70' />
+          <img alt='GitHub' src='/github-svgrepo-com.svg' className='w-10 h-10 mt-4 cursor-pointer hover:opacity-70' />
         </a>
         <a href='tel:+254796564749'>
-          <img alt='Phone' src='src/components/whatsapp-svgrepo-com.svg' className='w-10 h-10 mt-4 cursor-pointer hover:opacity-70' />
+          <img alt='Phone' src='/whatsapp-svgrepo-com.svg' className='w-10 h-10 mt-4 cursor-pointer hover:opacity-70' />
         </a>
         </div>
       </div>
